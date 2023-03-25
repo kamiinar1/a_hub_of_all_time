@@ -72,7 +72,7 @@ local Label = Tab:CreateLabel("Scripts")
 local Button = Tab:CreateButton({
    Name = "Walk on walls",
    Callback = function()
-   loadstring(game:HttpGet("https://raw.githubusercontent.com/thunderfurry/a_hub_of_all_time/main/scripts/wallwalk.lua?token=GHSAT0AAAAAAB7DC6Y6OCSNIJZWZONWAOS2ZA6IKMA"))()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/thunderfurry/a_hub_of_all_time/main/scripts/wallwalk.lua"))()
    end,
 })
 
